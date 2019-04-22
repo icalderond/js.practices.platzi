@@ -1,11 +1,13 @@
 var nombre = 'Israel', apellido = 'Calderón'
-var edad=28
 
-edad='28 años'
+// Variables String
+var nombreEnMayusculas = nombre.toUpperCase();
+var apellidoMinusculas = apellido.toLowerCase();
+var primeraLetraNombre=nombre.charAt(0);
+var cantidadLetrasNombre = nombre.length;
 
-console.log("Hola "+nombre+' '+apellido)
-console.log("Tengo "+edad);
+//Concatenar dos String
+var nombreCompleto = nombre+' '+apellido
+var nombreCompletoInterpolacion = `${nombre} ${apellido}`;
 
-//JS es un lenguaje debilmente tipado
-
-var peso = 75
+var substring = nombre.substr(2,2);
