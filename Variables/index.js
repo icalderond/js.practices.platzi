@@ -11,3 +11,5 @@ var nombreCompleto = nombre+' '+apellido
 var nombreCompletoInterpolacion = `${nombre} ${apellido}`;
 
 var substring = nombre.substr(2,2);
+
+var variableDePrueba = 'Prueba'
